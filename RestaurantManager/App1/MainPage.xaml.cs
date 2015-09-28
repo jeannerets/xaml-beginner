@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace RestaurantManager.UniversalWindows
+namespace App1
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -25,16 +25,6 @@ namespace RestaurantManager.UniversalWindows
         public MainPage()
         {
             this.InitializeComponent();
-        }
-
-        private void ExpeditePage_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ExpeditePage), null);
-        }
-
-        private void OrderPage_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(OrderPage), null);
         }
     }
 }
