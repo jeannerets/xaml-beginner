@@ -26,9 +26,9 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="1"  Text="Special Requests:" />
         <TextBlock Grid.Row="1" Grid.Column="2" Text="Order Items:" />
-        <ListView Grid.Row="2" Grid.Column="0" />
-        <ListView Grid.Row="2" Grid.Column="2" />
-        <Button Grid.Row="4" Grid.Column="0" Content="**Add to Order**" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Button Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="1" Content="**Submit Order**" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ListView Grid.Row="2" Grid.Column="0" ItemsSource="{Binding Path=MenuItems,Source={StaticResource DataManager}}"/>
+        <ListView Grid.Row="2" Grid.Column="2" ItemsSource="{Binding Path=CurrentlySelectedMenuItems,Source={StaticResource DataManager}}"/>
+        <Button Grid.Row="4" Grid.Column="0" Content="Add to Order" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="1" Content="Submit Order" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Page>

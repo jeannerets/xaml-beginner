@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Restaurant Manager" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="40"/>
         <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="Internal Test Version" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="24"/>
-        <Button Grid.Row="2" Grid.Column="0" Content="**Go to Orders View**" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ExpeditePage_Click"/>
-        <Button Grid.Row="2" Grid.Column="1" Content="**Submit Order**" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OrderPage_Click"/>
+        <Button Grid.Row="2" Grid.Column="0" Content="Go to Orders View" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ExpeditePage_Click"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="Submit Order" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OrderPage_Click"/>
     </Grid>
 </Page>
